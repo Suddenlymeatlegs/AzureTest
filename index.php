@@ -11,6 +11,7 @@
                         $product = "Specs";
                         if($i % 4 == 0){
                             $product = "Sausage rolls and specs";
+                        }
                     }
                     elseif($i % 3 == 0){
                         $product = "Mugs";
