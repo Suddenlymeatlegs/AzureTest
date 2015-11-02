@@ -6,20 +6,20 @@
         <p>
             <?php
 
-            $age = 18;
+            $wantedGood = "mug";
 
-            if($age <16){
-                print "You can't buy anyhing, oh no!";
-            }
-            elseif($age <18){
-                print "Y'all can get specs.";
-            }
-            elseif($age < 21){
-                print "Mugs. Get you some!";
-            }
-            else{
-                print "You can buy everything. Gz!";
-            }
+            switch ($wantedGood)
+                case "specs":
+                    echo "You need to be 16 to buy specs.";
+                    break;
+                case "mugs":
+                    echo "You need to be 18 to buy mugs.";
+                    break;
+                case "sausage rolls":
+                    echo "You need to be 21 to buy sausage rolls.";
+                    break;                
+                default:
+                    echo "Invalid entry, yo.";
             ?>
         </p>
     </body>
