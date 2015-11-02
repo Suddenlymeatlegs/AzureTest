@@ -7,7 +7,7 @@
             <?php
             $wantedGood = "mugs";
 
-            switch ($wantedGood)
+            switch ($wantedGood){
                 case "specs":
                     print "You need to be 16 to buy specs.";
                     break;
@@ -19,6 +19,7 @@
                     break;                
                 default:
                     print "Invalid entry, yo.";
+            }
             ?>
         </p>
     </body>
