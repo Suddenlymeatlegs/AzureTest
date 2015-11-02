@@ -24,6 +24,7 @@ $i = 0;
 /**
  * First server
  */
+
 $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
