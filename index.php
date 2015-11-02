@@ -5,7 +5,7 @@
     <body>
         <p>
             <?php
-                for($i=1; $i<30; $i++){
+                for($i=1; $i<31; $i++){
                     $product = "No products";
                     if($i % 2 == 0){
                         $product = "Specs";
