@@ -5,21 +5,10 @@
     <body>
         <p>
             <?php
-            $wantedGood = "butts";
-
-            switch ($wantedGood){
-                case "specs":
-                    echo "You need to be 16 to buy specs.";
-                    break;
-                case "mugs":
-                    echo "You need to be 18 to buy mugs.";
-                    break;
-                case "sausage rolls":
-                    echo "You need to be 21 to buy sausage rolls.";
-                    break;                
-                default:
-                    echo "Invalid entry, yo.";
-            }
+                $provisionedActivity = array("Specs", "Drugs," "Rock and Roll");
+                foreach($provisionedActivity as $x){
+                    print"<p>$x</p>;
+                }
             ?>
         </p>
     </body>
