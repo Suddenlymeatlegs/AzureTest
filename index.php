@@ -9,6 +9,10 @@
                 foreach($provisionedActivity as $x){
                     print "<p>$x</p>";
                 }
+                $provisionedActivity[0] = "Hugs";
+                foreach($provisionedActivity as $x){
+                    print "<p>$x</p>";
+                }
             ?>
         </p>
     </body>
