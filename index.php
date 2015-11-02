@@ -6,7 +6,7 @@
         <p>
             <?php
 
-            $age = 16;
+            $age = 15;
 
             if($age <16){
                 print "You can't buy anyhing, oh no!";
