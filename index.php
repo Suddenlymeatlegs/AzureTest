@@ -1,11 +1,21 @@
 <!DOCTYPE html>
     <html>
-    <head lang=""en">
-        <meta charset="UTF-8"
-        <title>Development Test</title>
+    <head>
     </head>
-</html>
-<body>
-    <H1>It's Alive!!</H1>
-</body>
+    <body>
+        <p>
+            <?php
+
+            echo "Hello World!";
+            $name = "Edgar";
+
+            if($name == "Simon"){
+                print "I know you!";
+            }
+            else{
+                print "Who are you?";
+            }
+            ?>
+        </p>
+    </body>
 </html>
