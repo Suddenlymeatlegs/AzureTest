@@ -9,7 +9,7 @@
             echo "Hello World!";
             $name = "Edgar";
 
-            if($name == "Simon"){
+            if($name == "Edgar"){
                 print "I know you!";
             }
             else{
