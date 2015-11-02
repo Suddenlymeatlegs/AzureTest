@@ -16,7 +16,7 @@
                     elseif($i % 2 == 0){
                         $products = "Specs";
                     }
-                    echo $product . " are available on the " . $i . "th day of the month."
+                    echo $product . " are available on the " . $i . "th day of the month.";
                 }
             ?>
         </p>
