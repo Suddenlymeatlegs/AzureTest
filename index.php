@@ -6,14 +6,19 @@
         <p>
             <?php
 
-            echo "Hello World!";
-            $name = "Edgar";
+            $age = 16;
 
-            if($name == "Edgar"){
-                print "I know you!";
+            if($age <16){
+                print "You can't buy anyhing, oh no!";
+            }
+            elseif($age <18){
+                print "Y'all can get specs.";
+            }
+            elseif($age < 21){
+                print "Mugs. Get you some!";
             }
             else{
-                print "Who are you?";
+                print "You can buy everything. Gz!";
             }
             ?>
         </p>
