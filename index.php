@@ -5,18 +5,18 @@
     <body>
         <p>
             <?php
-                for($i; $i<30; $i++){
+                for($i=1; $i<30; $i++){
                     $product = "No products";
-                    if($i % 4 == 0){
-                        $product = "Sausage rolls and specs";
+                    if($i % 2 == 0){
+                        $product = "Specs";
                     }
                     elseif($i % 3 == 0){
                         $product = "Mugs";
                     }
                     elseif($i % 2 == 0){
-                        $products = "Specs";
+                        $products = "Sausage Rolls and Specs";
                     }
-                    echo $product . " are available on the " . $i . "th day of the month.";
+                    echo <p>$product . " are available on the " . $i . "th day of the month."</p>;
                 }
             ?>
         </p>
