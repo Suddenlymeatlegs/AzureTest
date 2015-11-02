@@ -7,7 +7,7 @@
             <?php
                 $provisionedActivity = array("Specs", "Drugs," "Rock and Roll");
                 foreach($provisionedActivity as $x){
-                    echo"<p>$x</p>";
+                    print "<p>$x</p>";
                 }
             ?>
         </p>
