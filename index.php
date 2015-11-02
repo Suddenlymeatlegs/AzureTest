@@ -9,16 +9,16 @@
 
             switch ($wantedGood){
                 case "specs":
-                    print "You need to be 16 to buy specs.";
+                    echo "You need to be 16 to buy specs.";
                     break;
                 case "mugs":
-                    print "You need to be 18 to buy mugs.";
+                    echo "You need to be 18 to buy mugs.";
                     break;
                 case "sausage rolls":
-                    print "You need to be 21 to buy sausage rolls.";
+                    echo "You need to be 21 to buy sausage rolls.";
                     break;                
                 default:
-                    print "Invalid entry, yo.";
+                    echo "Invalid entry, yo.";
             }
             ?>
         </p>
